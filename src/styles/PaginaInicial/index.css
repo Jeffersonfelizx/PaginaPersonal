@@ -1,0 +1,397 @@
+/* Importações de fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Honk&family=Protest+Riot&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+
+body{
+    transition: background .4s ease-in;
+    background-color: #2C2A32;
+    &.blue {
+        background-color: #428aa6;
+  }
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #2C2A32;
+    padding: 2rem;
+    text-overflow: ellipsis;
+}
+.nav-list a:hover{
+    color: #93E3AB;
+}
+
+#logo{
+    font-family: "Workbench", sans-serif;
+    font-style:oblique;
+    font-weight: 50;
+}
+
+#logo:hover{
+    color: #93E3AB;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    text-transform:capitalize;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.nav-item a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+
+a{
+    color: white;
+}
+
+
+.container-img img{
+    width: 50vw;
+    height: 70vh;
+}
+
+.container-apresentacao{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: white;
+}
+
+.container-bemvindos{
+    padding-top: 6rem;
+    text-align: center;
+    padding-right: 3rem;
+    font-family: "Bitter", serif;
+}
+.container-bemvindos h1{
+    text-align: right;
+    font-weight: 500;
+    font-style: inherit;
+    font-size: 50px;
+    color: inherit;
+ 
+}
+.container-bemvindos h1 i{
+    gap: 1rem;
+     text-align: center;
+  
+ }
+.container-bemvindos h2{
+    gap: 1;
+    padding-top: 2rem;
+    text-align: right;
+}
+
+
+.container-minhaformacaoh1{
+    display: flex; 
+    justify-content: center;
+}
+.container-minhaformacaoh1 span{
+    display:inline-flex; 
+    background: #93E3AB; 
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-family: "Workbench", sans-serif;
+    border-radius: 0.2rem; 
+}
+
+
+
+
+
+.container-minhaformacao{
+    background: #242424;
+    padding: 2rem;
+    color: white;
+    border-radius: 1rem;
+    margin: 3rem;
+}
+.container-minhaformacao h1,h2{
+    text-align: center;
+}
+
+.container-minhaformacao-bloco1{
+    padding: 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.generation-aprendizado{
+padding: 1rem;    
+}
+.generation-aprendizado button{
+    margin: 1rem;
+}
+
+.generation-aprendizado h2,h4,button{
+  padding: 1rem;
+}
+.generation-aprendizado h2{
+    text-align: left;
+  }
+
+.generation-aprendizado button{
+    padding: 1rem;
+    border-radius: 10px;
+    background: #0074B9;
+    color: white ;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.generation-img{
+text-align: center;
+width: 50vw;
+height: 20vh;
+
+}
+.generation-img img{
+    height: 65vh; width: 35vw;
+}
+
+
+/* Projetos*/
+.projetos{
+    padding: 1rem;
+    text-align: center;
+
+}
+.projetos-h1{
+    color: white;
+    letter-spacing: 0.3rem;
+    background-color:#242424;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.projetos-lista h1{
+    
+}
+.projetos-bloco{
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    padding-top: 2rem ;
+    color: red;
+    background-color: #242424;
+    margin:1rem ;
+}
+.projetos-blocos{
+    background-color: white;
+    border-radius: 3px;
+}
+/* Cursos */
+.container-cursos{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+.container-cursos-bloco{
+    text-align: center;
+    padding-top: 10rem;
+}
+.container-cursos-bloco p{
+text-align:left;
+padding: 1rem;
+}
+
+.metodologias{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 50vw;
+    padding-top: 1rem;
+
+}
+.metodologias-bloco{
+    display: flex;
+    padding: 0.5rem;
+    text-align: center;
+}
+.metodologias-blocos{
+    background-color: #bbbaba46;
+    border-radius: 3px;
+    padding: 2rem;
+    margin: 1rem;
+    width: 50%;
+}
+.metodologias-blocos p{
+   text-align: left;
+    padding: 1rem;
+}
+
+.aprendizados-videos{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.aprendizados-videos h1{
+    background-color:#2C2A32 ;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.videos{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+.Sobre{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.Sobre div{
+    letter-spacing: 0.2rem;
+    color: white;
+    margin: 0.3rem;
+}
+.Sobre div h1{
+    margin: 1rem;
+    text-align: left;
+}
+
+.Minha-historia{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+    
+    
+}
+.Minha-historia div{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Meu-dia-dia{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+  
+}
+
+.Empresas-que-passei{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+ 
+}
+
+.Voluntariado{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+
+}
+
+.Hobbies{
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+
+.Sobre h1:hover{
+ color: #93E3AB;
+}
+
+.Minha-historia-hidden{
+    display: none;
+}
+
+/* ToDoList*/
+.todo-list{
+    align-items: center;
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+.todo{
+    padding: 2rem;
+}
+
+.content{
+
+}
+.bt-opcoes{
+display: flex;
+justify-content:space-evenly;
+padding: 1rem;
+}
+.bt-opcoes button{
+    border-radius: 0.5rem;
+}
+.bt-opcoes button:hover{
+    background-color: red;
+}
+
+/* BUSCAR */
+
+.search{
+    display: flex;
+align-items: center;
+}
+
+.search input{
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    margin-left: 1rem;
+}
+.search h2{
+    font-size: large;
+}
+
+/* */
+.filter-options{
+    display: flex;
+    justify-content: right;
+    gap: 1rem;
+    text-transform: capitalize;
+}
+
+
+/*Criar tarefa*/
+.todo-form{
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: white;
+}
+.todo-form form{
+display: flex;
+justify-content: center;
+}   
+.todo-form input{
+    padding: 1rem;
+    text-align: left;
+}
+.todo-form button{
+  
+}
